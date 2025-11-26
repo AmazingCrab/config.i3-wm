@@ -1,0 +1,27 @@
+# killall xbindkeys to restart
+# xbindkeys  process
+# sudo pacman -S xorg-xev
+# to see = xbindkeys --multikey
+# xev -event button | grep button para ver q boton es
+#############################
+"i3-sensible-terminal"
+ Mod2+Mod4 + Super_L + b:1
+
+"vscodium"
+Mod2+Mod4 + Super_L + b:2
+
+"firefox"
+Mod2+Mod4 + Super_L + b:3
+
+"kill -f active || i3-msg kill"
+Control+Mod2 + Control_L + b:8
+
+"pactl set-sink-volume @DEFAULT_SINK@ +5%"
+    Shift+Mod2 + Shift_L + b:4
+
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    Shift+Mod2 + Shift_L + b:5
+
+"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    Shift+Mod2 + Shift_L + b:3
+q
