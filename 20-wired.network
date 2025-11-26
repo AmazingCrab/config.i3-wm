@@ -1,0 +1,19 @@
+[Match]
+Name=enp3s0  # <--- Reemplaza con el nombre de tu interfaz
+
+[Network]
+# Si usas IP estática, descomenta y configura Address y Gateway:
+# Address=192.168.1.100/24
+# Gateway=192.168.1.1
+
+DHCP=ipv4
+
+# Servidor DNS Primario (SNS) y de Reserva (Fallback)
+DNS=9.9.9.9 
+DNS=149.112.112.112
+
+DHCPv4Server=no
+
+LinkLocalAddressing=ipv6
+DNSSEC=no
+Domains=~.
