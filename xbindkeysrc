@@ -23,5 +23,4 @@ Control+Mod2 + Control_L + b:8
     Shift+Mod2 + Shift_L + b:5
 
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
-    Shift+Mod2 + Shift_L + b:3
-q
+    Shift+Mod2 + Shift_L + b:2
