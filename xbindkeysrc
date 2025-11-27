@@ -4,7 +4,7 @@
 # to see = xbindkeys --multikey
 # xev -event button | grep button para ver q boton es
 #############################
-"i3-sensible-terminal"
+"kitty"
  Mod2+Mod4 + Super_L + b:1
 
 "vscodium"
